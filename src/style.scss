@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+
+  nav {
+    width: 100%;
+    padding: 24px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(234, 242, 255, 1);
+
+    .logo {
+      width: 50px;
+      height: 60px;
+      background-color: rgba(0, 125, 87, 1);
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+
+    .user-menu {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      p {
+        color: #606a79;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: 14px;
+      }
+    }
+  }
+
+  .main-div {
+    width: 100%;
+    min-height: calc(100vh - 108px);
+    padding: 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(234, 242, 255, 1);
+
+    .title {
+      color: #3a8371;
+      font-size: 32px;
+      font-family: Montserrat;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: 0.5px;
+      margin-top: 65px;
+    }
+
+    button {
+      width: 416px;
+      height: 66px;
+      padding: 16px 40px;
+      border-radius: 20px;
+      background: linear-gradient(90deg, #0dee9d 0%, #18c0a2 100%);
+
+      color: #fff;
+      font-size: 20px;
+      font-family: Poppins;
+      font-weight: 600;
+      line-height: 14px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .all-sprints {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px;
+      gap: 29px;
+      margin-top: 30px;
+
+      .sprint-frame {
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 36.60350036621094px 58.56559753417969px 0px
+          rgba(0, 0, 0, 0.05);
+        display: flex;
+        width: 196px;
+        padding: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+  }
+}
