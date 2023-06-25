@@ -7,7 +7,7 @@ export default function Navbar() {
       <NavLink className="logo" to="/" exact={true}></NavLink>
       <div className="user-menu">
         <img src={user} alt="" className="user-photo" />
-        <p className="user-name">Toghrul Rajab</p>
+        <p className="user-name">Arzu Ibrahim</p>
       </div>
     </nav>
   );
